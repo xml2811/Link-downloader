@@ -4,7 +4,7 @@ Portable Windows link downloader by MPTech Tools.
 
 ## Fix included
 
-- GitHub release page links such as /releases/latest are now resolved to real downloadable assets.
+- GitHub release page links such as /releases/latest are resolved to real downloadable assets.
 - Portable .exe assets are prioritized when available.
 - Avoids downloading GitHub release HTML pages as download-*.bin files.
 

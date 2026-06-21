@@ -58,10 +58,10 @@ fn add_suffix_to_filename(filename: &str, counter: usize) -> String {
 
     let stem = path
         .file_stem()
-        .and_then(|v| v.to_str())
+        .and_then(|value| value.to_str())
         .unwrap_or("download");
 
-    let extension = path.extension().and_then(|v| v.to_str());
+    let extension = path.extension().and_then(|value| value.to_str());
 
     match extension {
         Some(ext) => format!("{} ({}).{}", stem, counter, ext),
@@ -154,7 +154,8 @@ async fn resolve_github_release_asset(
         return None;
     }
 
-    let json: Value = response.json().await.ok()?;
+    let body = response.text().await.ok()?;
+    let json: Value = serde_json::from_str(&body).ok()?;
     let assets = json.get("assets")?.as_array()?;
 
     let best_asset = assets
@@ -313,7 +314,7 @@ async fn download_one(client: reqwest::Client, job: DownloadJob, folder: String)
         url: job.source_url,
         filename: final_path
             .file_name()
-            .and_then(|v| v.to_str())
+            .and_then(|value| value.to_str())
             .unwrap_or(&job.filename)
             .to_string(),
         ok: true,
