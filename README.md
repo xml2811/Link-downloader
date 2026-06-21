@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="docs/branding/logo.png" alt="Link Downloader logo" width="180">
-</p>
 # Link Downloader
 
 Link Downloader is a small portable Windows app that detects direct download links from pasted text and downloads them automatically.
