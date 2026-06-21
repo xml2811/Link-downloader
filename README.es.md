@@ -1,6 +1,9 @@
+<p align="center">
+  <img src="docs/branding/logo.png" alt="Link Downloader logo" width="180">
+</p>
 # Link Downloader
 
-Link Downloader es una pequeña aplicación portable para Windows que detecta enlaces directos pegados como texto y los descarga automáticamente.
+Link Downloader es una pequeÃ±a aplicaciÃ³n portable para Windows que detecta enlaces directos pegados como texto y los descarga automÃ¡ticamente.
 
 Creado por MPTech Tools.
 
@@ -11,13 +14,13 @@ Creado por MPTech Tools.
 ## Funciones
 
 - Pegar texto mezclado que contenga enlaces
-- Detección automática de enlaces
+- DetecciÃ³n automÃ¡tica de enlaces
 - Elegir carpeta de destino
 - Usa la carpeta Descargas por defecto
-- Descarga múltiples archivos
+- Descarga mÃºltiples archivos
 - Evita sobrescribir archivos con nombres repetidos
 - Permite abrir la carpeta de destino
-- Interfaz en inglés, español y portugués
+- Interfaz en inglÃ©s, espaÃ±ol y portuguÃ©s
 - EXE portable
 - Sin instalador
 - Sin cuenta
@@ -53,7 +56,7 @@ El script compila la app y copia el ejecutable final a:
 
 portable/link-downloader.exe
 
-y también a:
+y tambiÃ©n a:
 
 ../../releases/link-downloader/link-downloader.exe
 
@@ -61,4 +64,4 @@ y también a:
 
 Usa esta herramienta solo para archivos que tengas derecho a descargar.
 
-Esta app no salta DRM, inicios de sesión, paywalls, controles de acceso privados ni restricciones de copyright.
+Esta app no salta DRM, inicios de sesiÃ³n, paywalls, controles de acceso privados ni restricciones de copyright.
