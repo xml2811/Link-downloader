@@ -1,0 +1,23 @@
+# Link Downloader v1.0.0
+
+Portable Windows link downloader by MPTech Tools.
+
+## Recommended download
+
+Download the portable version:
+
+**MPTech-Link-Downloader-v1.0.0-portable.exe**
+
+The portable version does not require installation.
+
+If included, the installer version is optional:
+
+**MPTech-Link-Downloader-v1.0.0-installer.exe**
+
+## Notes
+
+Windows SmartScreen may show a warning because the executable is not code-signed yet.
+
+## SHA256
+
+See checksums.txt.

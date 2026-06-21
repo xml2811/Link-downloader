@@ -1,38 +1,38 @@
 {
-  "$schema": "https://schema.tauri.app/config/2",
-  "productName": "bulk-link-downloader",
-  "version": "0.1.0",
-  "identifier": "com.bucs.bulklinkdownloader",
-  "build": {
-    "beforeDevCommand": "npm run dev",
-    "devUrl": "http://localhost:1420",
-    "beforeBuildCommand": "npm run build",
-    "frontendDist": "../dist"
-  },
-  "app": {
-    "windows": [
-      {
-        "title": "bulk-link-downloader",
-   	"width": 1050,
-   	"height": 720,
-   	"minWidth": 850,
-   	"minHeight": 560,
-   	"resizable": true
-      }
-    ],
-    "security": {
-      "csp": null
-    }
-  },
-  "bundle": {
-    "active": true,
-    "targets": "all",
-    "icon": [
-      "icons/32x32.png",
-      "icons/128x128.png",
-      "icons/128x128@2x.png",
-      "icons/icon.icns",
-      "icons/icon.ico"
-    ]
-  }
+    "$schema":  "https://schema.tauri.app/config/2",
+    "productName":  "Link Downloader",
+    "version":  "1.0.0",
+    "identifier":  "com.mptechtools.linkdownloader",
+    "build":  {
+                  "beforeDevCommand":  "npm run dev",
+                  "devUrl":  "http://localhost:1420",
+                  "beforeBuildCommand":  "npm run build",
+                  "frontendDist":  "../dist"
+              },
+    "app":  {
+                "windows":  [
+                                {
+                                    "title":  "Link Downloader",
+                                    "width":  1050,
+                                    "height":  720,
+                                    "minWidth":  850,
+                                    "minHeight":  560,
+                                    "resizable":  true
+                                }
+                            ],
+                "security":  {
+                                 "csp":  null
+                             }
+            },
+    "bundle":  {
+                   "active":  true,
+                   "targets":  "nsis",
+                   "icon":  [
+                                "icons/32x32.png",
+                                "icons/128x128.png",
+                                "icons/128x128@2x.png",
+                                "icons/icon.icns",
+                                "icons/icon.ico"
+                            ]
+               }
 }
