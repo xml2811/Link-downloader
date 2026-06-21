@@ -1,6 +1,6 @@
 # Link Downloader
 
-Link Downloader es una pequeÃƒÂ±a aplicaciÃƒÂ³n portable para Windows que detecta enlaces directos pegados como texto y los descarga automÃƒÂ¡ticamente.
+Link Downloader es una pequeÃƒÆ’Ã‚Â±a aplicaciÃƒÆ’Ã‚Â³n portable para Windows que detecta enlaces directos pegados como texto y los descarga automÃƒÆ’Ã‚Â¡ticamente.
 
 Creado por MPTech Tools.
 
@@ -11,13 +11,13 @@ Creado por MPTech Tools.
 ## Funciones
 
 - Pegar texto mezclado que contenga enlaces
-- DetecciÃƒÂ³n automÃƒÂ¡tica de enlaces
+- DetecciÃƒÆ’Ã‚Â³n automÃƒÆ’Ã‚Â¡tica de enlaces
 - Elegir carpeta de destino
 - Usa la carpeta Descargas por defecto
-- Descarga mÃƒÂºltiples archivos
+- Descarga mÃƒÆ’Ã‚Âºltiples archivos
 - Evita sobrescribir archivos con nombres repetidos
 - Permite abrir la carpeta de destino
-- Interfaz en inglÃƒÂ©s, espaÃƒÂ±ol y portuguÃƒÂ©s
+- Interfaz en inglÃƒÆ’Ã‚Â©s, espaÃƒÆ’Ã‚Â±ol y portuguÃƒÆ’Ã‚Â©s
 - EXE portable
 - Sin instalador
 - Sin cuenta
@@ -53,7 +53,7 @@ El script compila la app y copia el ejecutable final a:
 
 portable/link-downloader.exe
 
-y tambiÃƒÂ©n a:
+y tambiÃƒÆ’Ã‚Â©n a:
 
 ../../releases/link-downloader/link-downloader.exe
 
@@ -61,4 +61,8 @@ y tambiÃƒÂ©n a:
 
 Usa esta herramienta solo para archivos que tengas derecho a descargar.
 
-Esta app no salta DRM, inicios de sesiÃƒÂ³n, paywalls, controles de acceso privados ni restricciones de copyright.
+Esta app no salta DRM, inicios de sesiÃƒÆ’Ã‚Â³n, paywalls, controles de acceso privados ni restricciones de copyright.
+
+## Soporte para GitHub Releases
+
+Link Downloader puede resolver enlaces de páginas de release de GitHub como /releases/latest y descargar el mejor asset disponible, priorizando archivos .exe portables.

@@ -1,4 +1,4 @@
-﻿import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { open } from "@tauri-apps/plugin-dialog";
 import { downloadDir } from "@tauri-apps/api/path";
 import { invoke } from "@tauri-apps/api/core";
@@ -32,7 +32,7 @@ const translations = {
       "Paste text with links, the app detects them automatically and downloads the files to the folder you choose.",
     pasteTitle: "Paste links",
     pasteHelp:
-      "Paste direct download links. Use it only for files you are allowed to download.",
+      "Paste direct links or GitHub release links. Use it only for files you are allowed to download.",
     detected: "links detected",
     placeholder:
       "Example:\nhttps://example.com/manual.pdf\nAnother one here: https://example.com/file.zip, and another https://example.com/image.png",
@@ -44,7 +44,7 @@ const translations = {
     openFolder: "Open folder",
     foundLinks: "Found links",
     foundLinksHelp:
-      "The app downloads direct links and avoids overwriting files with the same name.",
+      "The app downloads direct links, resolves GitHub Releases to assets and avoids overwriting files with the same name.",
     noLinks: "No links detected yet.",
     completed: "Completed",
     errors: "Errors",
@@ -64,7 +64,7 @@ const translations = {
       "Pega texto con enlaces, la app los detecta automáticamente y descarga los archivos en la carpeta que elijas.",
     pasteTitle: "Pegar links",
     pasteHelp:
-      "Pega links directos de descarga. Úsalo solo con archivos que tengas permiso para descargar.",
+      "Pega links directos o enlaces de GitHub Releases. Úsalo solo con archivos que tengas permiso para descargar.",
     detected: "links detectados",
     placeholder:
       "Ejemplo:\nhttps://example.com/manual.pdf\nAquí hay otro: https://example.com/archivo.zip, y otro https://example.com/imagen.png",
@@ -76,7 +76,7 @@ const translations = {
     openFolder: "Abrir carpeta",
     foundLinks: "Links encontrados",
     foundLinksHelp:
-      "La app descarga links directos y evita sobrescribir archivos con el mismo nombre.",
+      "La app descarga links directos, resuelve GitHub Releases a archivos reales y evita sobrescribir archivos con el mismo nombre.",
     noLinks: "Todavía no hay links detectados.",
     completed: "Completados",
     errors: "Errores",
@@ -96,7 +96,7 @@ const translations = {
       "Cole texto com links, a aplicação detecta-os automaticamente e descarrega os ficheiros para a pasta escolhida.",
     pasteTitle: "Colar links",
     pasteHelp:
-      "Cole links diretos de download. Use apenas com ficheiros que tem permissão para descarregar.",
+      "Cole links diretos ou links de GitHub Releases. Use apenas com ficheiros que tem permissão para descarregar.",
     detected: "links detectados",
     placeholder:
       "Exemplo:\nhttps://example.com/manual.pdf\nOutro aqui: https://example.com/ficheiro.zip, e outro https://example.com/imagem.png",
@@ -108,7 +108,7 @@ const translations = {
     openFolder: "Abrir pasta",
     foundLinks: "Links encontrados",
     foundLinksHelp:
-      "A aplicação descarrega links diretos e evita substituir ficheiros com o mesmo nome.",
+      "A aplicação descarrega links diretos, resolve GitHub Releases para ficheiros reais e evita substituir ficheiros com o mesmo nome.",
     noLinks: "Ainda não foram detectados links.",
     completed: "Concluídos",
     errors: "Erros",

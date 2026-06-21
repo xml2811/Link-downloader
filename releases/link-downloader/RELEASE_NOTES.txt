@@ -2,21 +2,17 @@
 
 Portable Windows link downloader by MPTech Tools.
 
+## Fix included
+
+- GitHub release page links such as /releases/latest are now resolved to real downloadable assets.
+- Portable .exe assets are prioritized when available.
+- Avoids downloading GitHub release HTML pages as download-*.bin files.
+
 ## Recommended download
 
 Download the portable version:
 
 **MPTech-Link-Downloader-v1.0.0-portable.exe**
-
-The portable version does not require installation.
-
-If included, the installer version is optional:
-
-**MPTech-Link-Downloader-v1.0.0-installer.exe**
-
-## Notes
-
-Windows SmartScreen may show a warning because the executable is not code-signed yet.
 
 ## SHA256
 

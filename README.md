@@ -62,3 +62,7 @@ and also to:
 Use this tool only for files you are allowed to download.
 
 This app does not bypass DRM, logins, paywalls, private access controls or copyright restrictions.
+
+## GitHub Releases support
+
+Link Downloader can resolve GitHub release page links such as /releases/latest and download the best available asset, prioritizing portable .exe files.
