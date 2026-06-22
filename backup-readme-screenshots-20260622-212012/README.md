@@ -44,9 +44,12 @@ Technical users, developers, admins and anyone who works with repeated downloads
 
 ## Screenshots
 
-### Link Downloader
+Screenshots should be placed in:
 
-![Link Downloader](docs/screenshots/Link-Downloader.png)
+- docs/screenshots/main.png
+- docs/screenshots/result.png
+
+---
 
 ## Download
 
@@ -120,4 +123,3 @@ Planned improvements may include:
 ## License
 
 Check the repository license before using, modifying or redistributing this software.
-
