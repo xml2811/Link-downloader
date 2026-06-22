@@ -11,7 +11,7 @@
 
 ## Overview
 
-Link Downloader is part of **MPTech Windows Tools**, a collection of small utilities focused on practical technical use cases.
+Link Downloader is part of MPTech Windows Tools, a collection of small utilities focused on practical technical use cases.
 
 Official website:
 
@@ -44,7 +44,11 @@ Technical users, developers, admins and anyone who works with repeated downloads
 
 ## Screenshots
 
-Screenshots should be placed in:
+Screenshots will be added in:
+
+docs/screenshots/
+
+Recommended files:
 
 - docs/screenshots/main.png
 - docs/screenshots/result.png
@@ -99,6 +103,7 @@ Future improvements may include:
 
 Planned improvements may include:
 
+<<<<<<< HEAD
 - Better UI polish
 - More diagnostics
 - Better export options
@@ -123,3 +128,16 @@ Planned improvements may include:
 ## License
 
 Check the repository license before using, modifying or redistributing this software.
+=======
+Link Downloader can resolve GitHub release page links such as /releases/latest and download the best available asset, prioritizing portable .exe files.
+
+## License
+
+This project is source-available for personal, educational and non-commercial use only.
+
+You may view, study, download and modify the code for your own personal or internal non-commercial use.
+
+You may not sell, resell, sublicense, commercially redistribute, include it in paid products/services, or publish modified commercial versions without prior written permission.
+
+See [LICENSE](LICENSE).
+>>>>>>> 04638f95dc35f7843dbbf1540c78302baa765b82
