@@ -46,7 +46,7 @@ Technical users, developers, admins and anyone who works with repeated downloads
 
 ### Link Downloader
 
-![Link Downloader](docs/screenshots/Link-Downloader.png)
+<img src="docs/screenshots/Link-Downloader.png" alt="Link Downloader" width="900">
 
 ## Download
 
@@ -120,4 +120,5 @@ Planned improvements may include:
 ## License
 
 Check the repository license before using, modifying or redistributing this software.
+
 

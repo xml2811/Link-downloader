@@ -43,4 +43,7 @@ backups/
 .DS_Store
 Thumbs.db
 .vscode/
-.idea/
+.idea/backup-readme-*/
+backup-readme-conflict-*/
+backup-readme-encoding-*/
+backup-readme-screenshots-*/
