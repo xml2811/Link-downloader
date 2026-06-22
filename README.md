@@ -1,68 +1,129 @@
-# Link Downloader
+﻿# Link Downloader
 
-Link Downloader is a small portable Windows app that detects direct download links from pasted text and downloads them automatically.
+## Portable Windows utility to extract and download links from URL lists.
 
-Created by MPTech Tools.
+![Windows](https://img.shields.io/badge/Windows-Portable-blue)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![Built With Tauri](https://img.shields.io/badge/Built%20With-Tauri-24C8DB)
+![MPTech](https://img.shields.io/badge/MPTech-Tools-black)
 
-## Preview
+---
 
-![link-downloader - Link-Downloader](docs/screenshots/Link-Downloader.png)
+## Overview
+
+Link Downloader is part of MPTech Windows Tools, a collection of small utilities focused on practical technical use cases.
+
+Official website:
+
+https://mptechsolutions.es
+
+---
+
+## Problem It Solves
+
+Managing many links manually is repetitive and wastes time.
+
+---
+
+## Who It Is For
+
+Technical users, developers, admins and anyone who works with repeated downloads.
+
+---
 
 ## Features
 
-- Paste mixed text containing links
-- Automatic link detection
-- Choose destination folder
-- Uses the Downloads folder by default
-- Downloads multiple files
-- Avoids overwriting duplicate filenames
-- Opens destination folder
-- English, Spanish and Portuguese interface
-- Portable EXE
-- No installer
-- No account
-- Free and open source
+- Extract unique links
+- Download files from URL lists
+- Simple status feedback
+- Export useful results
+- Portable executable
+
+
+---
+
+## Screenshots
+
+Screenshots will be added in:
+
+docs/screenshots/
+
+Recommended files:
+
+- docs/screenshots/main.png
+- docs/screenshots/result.png
+
+---
 
 ## Download
 
-Portable executable:
+Latest release:
 
-../../releases/link-downloader/link-downloader.exe
+https://github.com/xml2811/Link-downloader/releases/latest
 
-## Development
+Download only from official sources:
 
-From this folder:
+- https://github.com/xml2811/Link-downloader
+- https://mptechsolutions.es
 
-tools/link-downloader
+---
 
-Install dependencies:
+## Installation
 
-npm install
+This tool is designed as a portable Windows executable.
 
-Run in development mode:
+General usage:
 
-npm run tauri dev
+1. Download the latest .exe from Releases.
+2. Place it in any folder.
+3. Run it.
 
-## Build portable EXE
+No installer is required unless a future release adds one.
 
-Run:
+---
 
-.\build-portable.ps1
+## Security Notice
 
-The script builds the app and copies the final executable to:
+Early releases may not be digitally signed yet.
 
-portable/link-downloader.exe
+Because of that, Windows SmartScreen may show a warning.
 
-and also to:
+This does not automatically mean the file is malicious, but you should only download the tool from official sources.
 
-../../releases/link-downloader/link-downloader.exe
+Future improvements may include:
 
-## Responsible use
+- SHA256 checksums
+- Digital code signing
+- Dedicated documentation
+- Dedicated download page on MPTechSolutions
 
-Use this tool only for files you are allowed to download.
+---
 
-This app does not bypass DRM, logins, paywalls, private access controls or copyright restrictions.
+## Roadmap
 
-## GitHub Releases support
+Planned improvements may include:
 
-Link Downloader can resolve GitHub release page links such as /releases/latest and download the best available asset, prioritizing portable .exe files.
+- Better UI polish
+- More diagnostics
+- Better export options
+- Multilanguage support
+- Signed releases in the future
+- Documentation on MPTechSolutions.es
+
+---
+
+## Related Links
+
+| Resource | Link |
+|---|---|
+| Official Website | https://mptechsolutions.es |
+| GitHub Profile | https://github.com/xml2811 |
+| Windows Tools Catalog | https://github.com/xml2811/Windows-Tools |
+| Repository | https://github.com/xml2811/Link-downloader |
+| Latest Release | https://github.com/xml2811/Link-downloader/releases/latest |
+
+---
+
+## License
+
+Check the repository license before using, modifying or redistributing this software.
