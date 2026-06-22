@@ -66,3 +66,13 @@ Esta app no salta DRM, inicios de sesiÃƒÆ’Ã‚Â³n, paywalls, controles d
 ## Soporte para GitHub Releases
 
 Link Downloader puede resolver enlaces de páginas de release de GitHub como /releases/latest y descargar el mejor asset disponible, priorizando archivos .exe portables.
+
+## Licencia
+
+Este proyecto tiene cÃ³digo visible para uso personal, educativo y no comercial.
+
+Puedes ver, estudiar, descargar y modificar el cÃ³digo para tu propio uso personal o interno no comercial.
+
+No puedes venderlo, revenderlo, sublicenciarlo, redistribuirlo comercialmente, incluirlo en productos/servicios de pago ni publicar versiones modificadas comerciales sin permiso previo por escrito.
+
+Consulta [LICENSE](LICENSE).

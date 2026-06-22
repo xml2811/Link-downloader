@@ -66,3 +66,13 @@ This app does not bypass DRM, logins, paywalls, private access controls or copyr
 ## GitHub Releases support
 
 Link Downloader can resolve GitHub release page links such as /releases/latest and download the best available asset, prioritizing portable .exe files.
+
+## License
+
+This project is source-available for personal, educational and non-commercial use only.
+
+You may view, study, download and modify the code for your own personal or internal non-commercial use.
+
+You may not sell, resell, sublicense, commercially redistribute, include it in paid products/services, or publish modified commercial versions without prior written permission.
+
+See [LICENSE](LICENSE).
